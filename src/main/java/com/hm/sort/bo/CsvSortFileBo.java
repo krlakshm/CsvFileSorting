@@ -22,7 +22,7 @@ public class CsvSortFileBo {
 			}
 
 		}else{
-			throw new IllegalArgumentException("Need proper arguments.");
+			throw new IllegalArgumentException("Need minmum 4 arguments to sort the csv file, arguments should be like './file1.csv b ./file2.csv d' ");
 		}
 	}
 
